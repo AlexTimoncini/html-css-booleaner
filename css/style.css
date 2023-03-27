@@ -7,3 +7,33 @@ header{
 header img{
     height: 100px;
 }
+
+main .heading .title{
+    font-size: 5rem;
+    margin: 25px 0 0 0;
+}
+
+main .heading .subtitle{
+    font-size: 2em;
+    color: gray;
+    font-weight: 500;
+    margin: 0;
+}
+
+main .heading .subtitle a{
+    text-decoration: none;
+}
+
+main .heading .date{
+    color: gray;
+    margin: 0 0 20px 0;
+}
+
+main .heading img{
+    height: 600px;
+}
+
+main .heading .photo-description{
+    margin: 0px;
+    font-size: 1em;
+}
