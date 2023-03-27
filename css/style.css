@@ -65,3 +65,7 @@ main .content table tbody tr:nth-child(odd){
 main .content table thead th.larger{
     width: 25%;
 }
+
+main .content p .highligthed{
+    background-color: yellow;
+}
