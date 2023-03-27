@@ -1,0 +1,125 @@
+header{
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    padding: 80px 0 10px 15px;
+}
+
+header img{
+    height: 100px;
+}
+
+main{
+    margin: 0 400px;
+}
+
+main .heading .title{
+    font-size: 5rem;
+    margin: 25px 0 0 0;
+}
+
+main .heading .subtitle{
+    font-size: 2em;
+    color: gray;
+    font-weight: 500;
+    margin: 0;
+}
+
+main .heading .subtitle a{
+    text-decoration: none;
+}
+
+main .heading .date{
+    color: gray;
+    margin: 0 0 20px 0;
+}
+
+main .heading img{
+    height: 600px;
+}
+
+main .heading #img-wrap1{
+    float: left;
+}
+
+main .heading #img-wrap2{
+    float: right;
+    text-align: end;
+}
+
+main .heading .photo-description{
+    margin: 0 0 40px 0;
+    font-size: 1.2em;
+}
+
+main .content p,
+main .content ul{
+    margin: 40px 0;
+}
+
+main .content{
+    font-size: 1.8em;
+    clear: both;
+}
+
+main .content table td{
+    padding: 0;
+    margin: 0;
+}
+main .content table thead{
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+main .content table tbody tr:nth-child(odd){
+    background-color: #b1e5f2;
+}
+
+main .content table thead th.larger{
+    width: 25%;
+}
+
+main .content p .highligthed{
+    background-color: yellow;
+}
+
+footer{
+    background-color: rgb(110, 107, 107, 0.1);
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+footer .subtitle{
+    font-size: 2em;
+    color: gray;
+    font-weight: 900;
+    margin: 0;
+}
+
+footer .container .img-box{
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .img-box:first-child{
+    background-image: url(../img/monitor.jpg);
+}
+
+footer .img-box:last-child{
+    background-image: url(../img/graph.jpg);
+}
+
+footer .img-box h2{
+    font-size: 2em;
+    color: white;
+}
