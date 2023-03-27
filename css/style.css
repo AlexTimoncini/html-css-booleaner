@@ -35,5 +35,33 @@ main .heading img{
 
 main .heading .photo-description{
     margin: 0px;
-    font-size: 1em;
+    font-size: 1.2em;
+}
+
+main .content p,
+main .content ul{
+    margin: 40px 0;
+}
+
+main .content{
+    font-size: 2.5em;
+
+}
+
+main .content table td{
+    padding: 0;
+    margin: 0;
+}
+main .content table thead{
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+main .content table tbody tr:nth-child(odd){
+    background-color: #b1e5f2;
+}
+
+main .content table thead th.larger{
+    width: 25%;
 }
