@@ -1,20 +1,20 @@
 header{
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
-    padding: 80px 0 10px 15px;
+    padding: 40px 0 5px 8px;
 }
 
 header img{
-    height: 100px;
+    height: 50px;
 }
 
 main .heading .title{
-    font-size: 5rem;
-    margin: 25px 0 0 0;
+    font-size: 2.5rem;
+    margin: 12.5px 0 0 0;
 }
 
 main .heading .subtitle{
-    font-size: 2em;
+    font-size: 1em;
     color: gray;
     font-weight: 500;
     margin: 0;
@@ -26,26 +26,26 @@ main .heading .subtitle a{
 
 main .heading .date{
     color: gray;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 
 main .heading img{
-    height: 600px;
+    height: 300px;
 }
 
 main .heading .photo-description{
-    margin: 0px;
+    margin: 0 0 20px 0;
     font-size: 1.2em;
 }
 
 main .content p,
 main .content ul{
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 main .content{
-    font-size: 1.8em;
-
+    font-size: 1em;
+    clear: both;
 }
 
 main .content table td{
@@ -70,18 +70,22 @@ main .content p .highligthed{
     background-color: yellow;
 }
 
+footer{
+    background-color: rgb(110, 107, 107, 0.1);
+}
+
 footer .subtitle{
-    font-size: 2em;
+    font-size: 1em;
     color: gray;
     font-weight: 900;
     margin: 0;
 }
 
 footer .container .img-box{
-    height: 250px;
-    width: 400px;
-    padding: 10px;
-    margin: 10px 0;
+    height: 150px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
     cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,6 +101,6 @@ footer .img-box:last-child{
 }
 
 footer .img-box h2{
-    font-size: 2em;
+    font-size: 1em;
     color: white;
 }
