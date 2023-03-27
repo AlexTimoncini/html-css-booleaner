@@ -84,16 +84,16 @@ footer .container .img-box{
     margin: 10px 0;
     cursor: pointer;
     background-position: center;
-    background-repeat: no-repeat;   /*PROBLEMA QUI*/
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 footer .img-box:first-child{
-    background: url(../img/monitor.jpg);
+    background-image: url(../img/monitor.jpg);
 }
 
 footer .img-box:last-child{
-    background: url(../img/graph.jpg);
+    background-image: url(../img/graph.jpg);
 }
 
 footer .img-box h2{
